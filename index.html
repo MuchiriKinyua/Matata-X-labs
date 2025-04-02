@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>MatataX Labs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+    <div class="logo-container">
+        <img src="images/matata.webp" alt="MatataX Logo">
+    </div>
+    <div class="search-container">
+        <div class="search-bar">
+            <input type="text" placeholder="Search products...">
+            <button style="background-color: black;">Search</button>
+        </div>
+    </div>
+    <div class="cart-container">
+        <div class="cart-account">
+            <a href="#" class="account-btn">Raise a Ticket</a>
+            <a href="{{ route('login') }}" class="account-btn">Account</a>
+        </div>
+    </div>
+</header>
+
+<nav class="nav">
+    <div class="dropdown">
+        <a href="#full-stack-section">Full Stack Systems</a>
+        <div class="dropdown-content">
+            <a href="#">ERP</a>
+            <a href="#">CRM</a>
+            <a href="#">POS</a>
+            <a href="#">Supply Chain Management</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <a href="#management-section">Management Systems</a>
+        <div class="dropdown-content">
+            <a href="#">Laravel</a>
+            <a href="#">Django</a>
+            <a href="#">Node.js</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <a href="#website-section">Websites</a>
+        <div class="dropdown-content">
+            <a href="#">E-commerce</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Corporate Websites</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <a href="#mobile-apps-section">Mobile Apps</a>
+        <div class="dropdown-content">
+            <a href="#">Android</a>
+            <a href="#">iOS</a>
+            <a href="#">Flutter</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <a href="#chatbots-section">ChatBots</a>
+        <div class="dropdown-content">
+            <a href="#">AI Assistants</a>
+            <a href="#">WhatsApp Chatbots</a>
+            <a href="#">Facebook Messenger Bots</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <a href="#ml-models-section">Machine Learning Models</a>
+        <div class="dropdown-content">
+            <a href="#">Sentiment Analysis</a>
+            <a href="#">Image Recognition</a>
+            <a href="#">Predictive Analytics</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Free CRM -->
+
+<div class="hero">
+        <!-- Left Side: Text & CTA -->
+        <div class="hero-text">
+            <h1>Powerful Free CRM for Your Business</h1>
+            <p>Manage leads, automate workflows, and grow your business effortlessly.</p>
+            <a href="#" class="cta-btn">Download</a>
+        </div>
+
+        <!-- Right Side: CRM Image -->
+        <div class="hero-image">
+            <img src="images/crm.png" alt="CRM Dashboard">
+        </div>
+    </div>
+
+
+<!-- Full Stack -->
+
+<div class="matatax-hero" id="full-stack-section">
+    <div style="position: absolute; top: 20px; left: 5%; color: white; font-size: 2rem;">Full Stack</div>
+    <div class="matatax-item">
+        <img src="images/hotel.png" alt="Hotel Management System">
+        <h2>Hotel Management System</h2>
+        <p>Enhance hotel operations with seamless booking and management.</p>
+    </div>
+    <div class="matatax-item">
+        <img src="images/hospital.png" alt="Hospital Management System">
+        <h2>Hospital Management System</h2>
+        <p>Efficient healthcare management for better patient care.</p>
+    </div>
+    <div class="matatax-item">
+        <img src="images/library.png" alt="Library Management System">
+        <h2>Library Management System</h2>
+        <p>Organize and manage books with ease.</p>
+    </div>
+    <div class="matatax-item">
+        <img src="images/ticket.png" alt="Ticketing System">
+        <h2>Ticketing System</h2>
+        <p>Streamline event and service ticketing efficiently.</p>
+    </div>
+    <div class="see-more-container">
+        <a href="#more-full-stack" class="see-more-btn">See More</a>
+    </div>
+</div>
+
+
+<!-- Management Systems -->
+
+<div class="matatax-hero" id="management-section">
+    <div style="position: absolute; top: 20px; left: 5%; color: white; font-size: 2rem;">Management Systems</div>
+    <div class="matatax-item">
+        <img src="images/edm.png" alt="EDM System">
+        <h2>Enterprise Document Management (EDM)</h2>
+        <p>Streamline document storage, retrieval, and automation.</p>
+    </div>
+    <div class="matatax-item">
+        <img src="images/pos.png" alt="POS System">
+        <h2>Point of Sale</h2>
+        <h2>(POS)</h2>
+        <p>Effortless transactions with our powerful POS solutions.</p>
+    </div>
+    <div class="matatax-item">
+        <img src="images/mlm.png" alt="MLM System">
+        <h2>Multi-Level Marketing (MLM)</h2>
+        <p>Grow your network with our advanced MLM tools.</p>
+    </div>
+    <div class="matatax-item">
+        <img src="images/scm.png" alt="SCM system">
+        <h2>Supply Chain Management (SCM)</h2>
+        <p>Optimize your logistics processes with our SCM system.</p>
+    </div>
+    <div class="see-more-container">
+        <a href="#more-full-stack" class="see-more-btn">See More</a>
+    </div>
+</div>
+
+<!-- Websites -->
+
+<div class="matatax-hero" id="website-section">
+    <div style="position: absolute; top: 20px; left: 5%; color: white; font-size: 2rem;">Websites</div>
+    <div class="matatax-item">
+        <img src="images/jos.png" alt="Jo's Florist Studio">
+        <h2>Jo's Florist Studio</h2>
+        <p>Beautiful floral arrangements with easy online ordering.</p>
+    </div>
+    <div class="matatax-item">
+        <img src="images/portfolio.png" alt="Portfolio Websites">
+        <h2>Portfolio Websites</h2>
+        <p>Showcase your skills and work with a stunning portfolio.</p>
+    </div>
+    <div class="matatax-item">
+        <img src="images/bella.png" alt="Bella Clothes Website">
+        <h2>Bella Clothes Website</h2>
+        <p>Trendy fashion collections available for online shopping.</p>
+    </div>
+    <div class="matatax-item">
+        <img src="images/school.png" alt="School Apps">
+        <h2>School Apps</h2>
+        <p>Enhance learning with interactive school management systems.</p>
+    </div>
+    <div class="see-more-container">
+        <a href="#more-full-stack" class="see-more-btn">See More</a>
+    </div>
+</div>
+
+<!-- Mobile Apps -->
+ 
+<div class="matatax-hero" id="mobile-apps-section">
+    <div style="position: absolute; top: 20px; left: 5%; color: white; font-size: 2rem;">Mobile Apps</div>
+    <div class="matatax-item">
+        <img height="600px;" src="images/mmaziwa.png" alt="M-Maziwa App">
+        <h2>M-Maziwa</h2>
+        <p>A mobile app for small-scale dairy farmers to manage milk production and sales.</p>
+    </div>
+    <div class="matatax-item">
+        <img src="images/2hand.png" alt="2Hand App">
+        <h2>2Hand</h2>
+        <p>A platform for buying and selling second-hand electronics securely.</p>
+    </div>
+    <div class="matatax-item">
+        <img src="images/2hand.png" alt="2Hand App">
+        <h2>2Hand</h2>
+        <p>A platform for buying and selling second-hand electronics securely.</p>
+    </div>
+    <div class="matatax-item">
+        <img src="images/2hand.png" alt="2Hand App">
+        <h2>2Hand</h2>
+        <p>A platform for buying and selling second-hand electronics securely.</p>
+    </div>
+    <div class="see-more-container">
+        <a href="#more-full-stack" class="see-more-btn">See More</a>
+    </div>
+</div>
+
+<!-- ChatBots -->
+
+<div class="matatax-hero" id="chatbots-section">
+    <div style="position: absolute; top: 20px; left: 5%; color: white; font-size: 2rem;">ChatBots</div>
+    <div class="matatax-item">
+        <img src="images/hotel chatbot.png" alt="Hotel Chatbot">
+        <h2>Hotel Chatbot</h2>
+        <p>Enhance guest experiences with AI-powered hotel assistants.</p>
+    </div>
+    <div class="matatax-item">
+        <img src="images/hospital chatbot.png" alt="Hospital Chatbot">
+        <h2>Hospital Chatbot</h2>
+        <p>Improve patient engagement with automated healthcare support.</p>
+    </div>
+    <div class="matatax-item">
+        <img src="images/library chatbot.png" alt="Library Chatbot">
+        <h2>Library Chatbot</h2>
+        <p>Help users find books and resources with ease.</p>
+    </div>
+    <div class="matatax-item">
+        <img src="images/library chatbot.png" alt="Library Chatbot">
+        <h2>Library Chatbot</h2>
+        <p>Help users find books and resources with ease.</p>
+    </div>
+    <div class="see-more-container">
+        <a href="#more-full-stack" class="see-more-btn">See More</a>
+    </div>
+</div>
+
+<!-- Machine Learning Models -->
+
+<div class="matatax-hero" id="ml-models-section">
+    <div style="position: absolute; top: 20px; left: 5%; color: white; font-size: 2rem;">Machine Learning Models</div>
+    <div class="matatax-item">
+        <img height="230px;" src="images/flu hesitancy.png" alt="Flu Vaccine Hesitancy Prediction">
+        <h2>Flu Vaccine Hesitancy Prediction</h2>
+        <p>Predict vaccine hesitancy trends based on demographic and behavioral data.</p>
+    </div>
+    <div class="matatax-item">
+        <img src="images/hotel cancellation.png" alt="Hotel Booking Cancellation Prediction">
+        <h2>Hotel Booking Cancellation Prediction</h2>
+        <p>Analyze factors influencing booking cancellations and reduce revenue loss.</p>
+    </div>
+    <div class="matatax-item">
+        <img src="images/breast cancer ml.png" alt="Breast Cancer Detection">
+        <h2>Breast Cancer Detection Prediction</h2>
+        <p>AI-powered model for early detection and classification of breast cancer.</p>
+    </div>
+    <div class="matatax-item">
+        <img height="230px;" src="images/iris.png" alt="Iris Flower Classification">
+        <h2>Iris Flower Classification Prediction</h2>
+        <p>Classify iris species using machine learning algorithms.</p>
+    </div>
+    <div class="see-more-container">
+        <a href="#more-full-stack" class="see-more-btn">See More</a>
+    </div>
+</div>
+
+<!-- footer -->
+
+<footer class="footer">
+        <div class="footer-section map-container">
+            <h3 style="font-weight: bold;">Our Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.186920576527!2d36.900528!3d-1.270389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f13a4e10e4df1%3A0x6f8c909f2873e4b2!2sUmoja%2C%20Nairobi%2C%20Kenya!5e0!3m2!1sen!2ske!4v1615650123456" 
+            allowfullscreen="" width="100%" height="200px" style="border:0;"></iframe>
+
+        </div>
+        <div class="footer-section newsletter">
+            <h3 style="font-weight: bold;">Newsletter</h3>
+            <input type="email" placeholder="Email Address">
+            <button>Submit</button>
+        </div>
+        <div class="footer-section">
+            <h3 style="font-weight: bold;">Social Media</h3>
+            <div class="social-links">
+                <a href="#">TikTok</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">WhatsApp</a>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h3 style="font-weight: bold;">Contact Us</h3>
+            <p>Address: Nairobi, Kenya</p>
+            <p>Phone: +254 700 000000</p>
+            <p>Email: contact@yourwebsite.com</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Chat Button -->
+    <a href="https://wa.me/254700000000" target="_blank" class="whatsapp-button">
+        <img src="images/whatsapp.png" alt="Chat with us">
+    </a>
+
+</body>
+</html>

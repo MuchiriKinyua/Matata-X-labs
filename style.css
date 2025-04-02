@@ -1,0 +1,289 @@
+/* header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5dc;
+    padding: 15px 30px;
+    height: 100px; /* Set a fixed height */
+    overflow: hidden; /* Prevents content from exceeding the header height */
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    height: 100px; /* Ensure it matches the header height */
+}
+
+.logo-container img {
+    max-height: 100%; /* Adjust within container */
+    width: auto;
+}
+.search-bar input {
+padding: 10px;
+border-radius: 5px;
+border: none;
+}
+.search-bar button {
+padding: 10px 15px;
+border-radius: 5px;
+border: none;
+color: white;
+cursor: pointer;
+}
+.nav {
+display: flex;
+justify-content: center;
+background-color: #f5f5dc;
+padding: 10px 0;
+}
+.nav .dropdown {
+position: relative;
+margin: 0 15px;
+}
+.nav .dropdown a {
+color: rgb(2, 2, 2);
+text-decoration: none;
+padding: 10px 15px;
+display: block;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f00e0e;
+box-shadow: 0px 4px 8px rgba(212, 13, 13, 0.2);
+min-width: 200px;
+z-index: 10;
+}
+.dropdown-content a {
+color: rgb(211, 21, 21);
+padding: 10px;
+display: block;
+text-decoration: none;
+}
+.dropdown-content a:hover {
+background-color: #d11b1b;
+}
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.cart-account {
+    display: flex;
+    gap: 10px;
+}
+.cart-btn, .account-btn {
+    padding: 10px 15px;
+    background-color: #070707;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.cart-btn:hover, .account-btn:hover {
+    background-color: #030303;
+}
+.cart-btn i {
+    font-size: 20px;
+}
+
+/* Free CRM */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50vh;
+    width: 100%;
+    padding: 100px;
+    background: pink;
+}
+
+.hero-text {
+    flex: 1;
+    padding: 50px;
+    text-align: left;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1.3rem;
+    color: #363333;
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #0056b3;
+}
+
+.hero-image {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    height: 680px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        padding: 30px;
+    }
+
+    .hero-image img {
+        width: 80%;
+    }
+}
+/* Full Stack */
+
+ /* Full Stack Section */
+ .matatax-hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 5% 60px;
+    background: #1a1a1a;
+    color: white;
+    position: relative;
+}
+
+.matatax-item {
+    width: 23%;
+    text-align: center;
+}
+
+.matatax-item img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.matatax-item h2 {
+    font-size: 1.8rem;
+    margin: 15px 0 10px;
+}
+
+.matatax-item p {
+    font-size: 1.1rem;
+    color: #dcdcdc;
+}
+
+/* Centering See More Button */
+.see-more-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.see-more-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.see-more-btn:hover {
+    background-color: #0056b3;
+}
+
+/* whatsapp */
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right */
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    z-index: 1000; /* Ensure it stays above other elements */
+    }
+    
+    .whatsapp-button img {
+    width: 35px;
+    height: 35px;
+    }
+    
+    .whatsapp-button:hover {
+    transform: scale(1.1);
+    }
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: pink;
+    flex-wrap: wrap;
+}
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+.map-container iframe {
+    width: 100%;
+    height: 200px;
+    border: none;
+}
+.newsletter input, .newsletter button {
+    display: block;
+    width: 100%; /* Ensures both elements have the same width */
+    margin-top: 5px;
+    padding: 10px;
+    box-sizing: border-box; /* Prevents padding from affecting width */
+}
+.newsletter button {
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+
